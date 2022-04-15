@@ -1,6 +1,10 @@
 ManoPot
 ========
 
+.. image:: https://readthedocs.org/projects/manopot/badge/?version=latest
+  :target: https://manopot.readthedocs.io/en/latest/?badge=latest
+  :alt: Documentation Status
+
 ManoPot is a simple TCP HoneyPot written in Python 3.
 
 Source Code

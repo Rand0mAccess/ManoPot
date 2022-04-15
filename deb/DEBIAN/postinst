@@ -6,4 +6,7 @@ mkdir -p /home/manopot
 /usr/bin/python3 -m pip uninstall -y manopot
 /usr/bin/python3 -m pip install manopot --no-cache-dir
 
+touch /var/log/manopot.log
+chown -R manopot:manopot /var/log/manopot.log
+
 systemctl enable manopot
