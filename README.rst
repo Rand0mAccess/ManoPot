@@ -5,6 +5,12 @@ ManoPot
   :target: https://manopot.readthedocs.io/en/latest/?badge=latest
   :alt: Documentation Status
 
+.. image:: https://badge.fury.io/py/manopot.svg
+  :target: https://badge.fury.io/py/manopot
+
+.. image:: https://badge.fury.io/gh/Rand0mAccess%2FManoPot.svg
+  :target: https://badge.fury.io/gh/Rand0mAccess%2FManoPot
+
 ManoPot is a simple TCP HoneyPot written in Python 3.
 
 Source Code

@@ -1,7 +1,6 @@
 ManoPot Quickstart
 ===================
 
-
 ManoPot is a simple TCP HoneyPot written in Python 3.
 
 Installation
