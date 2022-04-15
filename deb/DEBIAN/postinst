@@ -1,0 +1,9 @@
+#!/usr/bin/bash
+
+id -u manopot &>/dev/null || useradd manopot
+mkdir -p /home/manopot
+
+/usr/bin/python3 -m pip uninstall -y manopot
+/usr/bin/python3 -m pip install manopot --no-cache-dir
+
+systemctl enable manopot

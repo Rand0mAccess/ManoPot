@@ -1,0 +1,13 @@
+[Unit]
+Description=ManoPot honeypot
+After=network.target
+
+[Service]
+Type=simple
+User=manopot
+WorkingDirectory=/home/manopot
+ExecStart=/usr/bin/python3 -m manopot /etc/manopot.ini
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

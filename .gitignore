@@ -1,0 +1,10 @@
+manopot.test.ini
+manopot.log
+env
+*.egg-info
+dist/
+__pycache__
+*.pyc
+.idea
+*.deb
+_build
